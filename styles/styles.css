@@ -1,0 +1,66 @@
+html {
+    font-size: 100%;
+    /* Schriftgröße auf die vom Benutzer vorgegebene Größe setzen */
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #333;
+    background-color: #fff;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
+    border-bottom: 1px solid #a00;
+    padding-bottom: .25rem;
+    clear: both;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+sup {
+    font-size: 0.7em;
+}
+
+a {
+    color: #a00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image_left, .image_right {
+    margin-bottom: 1rem;
+}
+
+.image_left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.image_right {
+    float: right;
+    margin-left: 1rem;
+}
