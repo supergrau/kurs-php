@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/simple.css">
-    <title>M 31</title>
+    <title>NGC 654 & 663</title>
 </head>
 
 <body>

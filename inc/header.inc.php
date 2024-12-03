@@ -6,5 +6,6 @@
         <a href="m31.php">M 31</a>
         <a href="ngc654.php">NGC 654 & 663</a>
         <a href="sh158.php">Sh 158</a>
+        <a href="ngc2264.php">NGC 2264</a>
     </nav>
 </header>
