@@ -45,7 +45,8 @@
     --disabled: #111;
   }
 
-  img, video {
+  img,
+  video {
     opacity: .6;
   }
 }
@@ -97,7 +98,9 @@ header p {
 }
 
 /* Fix line height when title wraps */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.1;
 }
 
@@ -233,7 +236,7 @@ input[type="button"]:enabled:hover,
 input[type="checkbox"]:focus,
 input[type="checkbox"]:enabled:hover,
 input[type="radio"]:focus,
-input[type="radio"]:enabled:hover{
+input[type="radio"]:enabled:hover {
   opacity: .8;
 }
 
@@ -334,11 +337,13 @@ select {
 }
 
 /* checkbox and radio button style */
-input[type="checkbox"], input[type="radio"]{
+input[type="checkbox"],
+input[type="radio"] {
   vertical-align: bottom;
   position: relative;
 }
-input[type="radio"]{
+
+input[type="radio"] {
   border-radius: 100%;
 }
 
@@ -362,6 +367,7 @@ input[type="checkbox"]:checked::after {
   font-size: 1.8em;
   transform: rotate(45deg);
 }
+
 input[type="radio"]:checked::after {
   /* creates a colored circle for the checked radio button  */
   content: ' ';
@@ -382,6 +388,7 @@ textarea {
 
 /* Makes input fields wider on smaller screens */
 @media only screen and (max-width: 720px) {
+
   textarea,
   select,
   input {
@@ -390,7 +397,8 @@ textarea {
 }
 
 /* Ensures the checkbox and radio inputs do not have a set width like other input fields */
-input[type="checkbox"], input[type="radio"]{
+input[type="checkbox"],
+input[type="radio"] {
   width: auto;
 }
 
@@ -420,7 +428,8 @@ mark {
   background: var(--marked);
 }
 
-main img, main video {
+main img,
+main video {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
