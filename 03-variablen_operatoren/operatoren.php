@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/simple.css">
-    <title>Variablen</title>
+    <title>Operatoren</title>
 
 </head>
 
@@ -84,7 +84,7 @@
     $a = 7;
     $b = "30 Euro";
 
-    echo $a + $b;
+    //echo $a + $b;
 
     echo '<strong>\'Text\'</strong>' . $a . " Text " . $b;
 
