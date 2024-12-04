@@ -16,28 +16,41 @@
 <main>
     <?php
 
-$shoppingCart = [
-    'Apfel',
-    'Orange',
-    'Banane',
-    'Yoghurt',
-    'Brot'
-];
+    $shoppingCart = [
+        'Apfel',
+        'Orange',
+        'Banane',
+        'Yoghurt',
+        'Brot'
+    ];
 
-var_dump($shoppingCart);
+    var_dump($shoppingCart);
 
-/**
- * Aufgabe:
- * 
- * 1) Überprüfe, ob das Array $shoppingCart Elemente enthält.
- *     Wenn ja:
- *        a) Gebe eine <ul>-Liste in HTML aus
- *        b) Generiere ein <li>-Element für jedes Element des Warenkorbes
- *     Wenn nicht:
- *        a) Gebe einen Absatz (<p>-Element) aus, wo der Nutzer darauf 
- *           hingewiesen wird, dass der Warenkorb leer ist.
- */
-?>
+    /**
+     * Aufgabe:
+     * 
+     * 1) Überprüfe, ob das Array $shoppingCart Elemente enthält.
+     *     Wenn ja:
+     *        a) Gebe eine <ul>-Liste in HTML aus
+     *        b) Generiere ein <li>-Element für jedes Element des Warenkorbes
+     *     Wenn nicht:
+     *        a) Gebe einen Absatz (<p>-Element) aus, wo der Nutzer darauf 
+     *           hingewiesen wird, dass der Warenkorb leer ist.
+     */
+
+    unset($shoppingCart);
+
+    ?>
+    <?php if (!empty($shoppingCart)): ?>
+        <ul>
+            <?php foreach ($shoppingCart as $item): ?>
+                <li><?php echo $item; ?></li>
+            <?php endforeach; ?>
+        </ul>
+    <?php else: ?>
+        <p>Der Warenkorb ist leer.</p>
+    <?php endif; ?>
+
 </main>
 <footer>
     <p>Das ist die Fußzeile</p>
