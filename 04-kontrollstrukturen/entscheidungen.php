@@ -54,10 +54,10 @@
 
     <!-- Eine andere Art von if-Anweisung -->
     <?php if ($value == 1): ?>
-        <p><b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Quaerat error natus numquam doloremque inventore
-            corrupti quas, alias cupiditate in molestias! Sed illum, maiores quasi ipsam voluptatem soluta est non hic?</p>
+    <p><b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Quaerat error natus numquam doloremque inventore
+        corrupti quas, alias cupiditate in molestias! Sed illum, maiores quasi ipsam voluptatem soluta est non hic?</p>
     <?php else: ?>
-        <p>Hallo Welt</p>
+    <p>Hallo Welt</p>
     <?php endif; ?>
 
     <p>Nach if: else: endif:</p>
@@ -199,8 +199,8 @@
     if (is_bool(true))         echo "true ist boolean<br>";
     if (is_bool(5 > 3 && 7 < 12))  echo "5>3 && 7<12 ist boolean<br>";
     if (!is_bool("true"))      echo "\"true\" ist nicht boolean<br><br>";
-
     ?>
+
     <h2>Die Koaleszenzoperatoren ?? und ??=</h2>
     <?php
     echo $temperatur ?? "Temperatur nicht vorhanden";
