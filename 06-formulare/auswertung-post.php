@@ -16,11 +16,11 @@
     <main>
         <p>Werte in _POST:</p>
         <?php
-        var_dump($_POST);
+        // var_dump($_POST);
         echo "<br>";
-        print_r($_POST);
+        // print_r($_POST);
         if ($_POST['vorname'] != "" && $_POST['nachname'] != "") {
-            echo "<br>Vorname: " . $_POST['vorname'] . " --- Nachname: " . $_POST['nachname'] . "<br> ";
+            echo "<br>Vorname: " . $_POST['vorname'] . " --- Nachname: " . htmlspecialchars($_POST['nachname'], ENT_QUOTES, "UTF-8") . "<br> ";
             echo "<br>Kennwort: " . $_POST['kennwort'] . "<br> ";
             echo "<br>erste Zutat: " . $_POST['zutat'][0] . "<br> ";
         } else {
