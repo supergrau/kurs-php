@@ -15,10 +15,31 @@
 </header>
 <main>
     <?php
-    echo $_SERVER["SERVER_SOFTWARE"] . "<br>";
-    $keys = array_keys($_SERVER);
-    foreach ($keys as $k) echo "$k<br>";
-    foreach ($_SERVER as $key => $value) echo "$key => $value<br>";
+    // echo $_SERVER["SERVER_SOFTWARE"] . "<br>";
+
+    // In $keys die Schlüssel als eindimensional Array ablegen
+    // $keys = array_keys($_SERVER);
+    // foreach ($keys as $k) echo "$k<br>";
+
+    // Alle Infos aus $_SERVER ausgeben    
+    // foreach ($_SERVER as $key => $value) echo "$key => $value<br>";
+    ?>
+
+    <h2>Eigene assoziative Arrays</h2>
+    <?php
+    $laender = [
+        "BRD" => "Berlin",
+        "Frankreich" => "Paris",
+        "Polen" => "Warschau"
+    ];
+
+    echo "<pre>";
+    var_dump($laender);
+
+    $laender["Italien"] = "Rom";
+    var_dump($laender);
+
+    echo "</pre>";
     ?>
 </main>
 <footer>
