@@ -25,7 +25,7 @@
     // echo $_GET["id"] . "<br>";
     ?>
     <p>Bitte Ihre Daten eingeben.</p>
-    <form action="auswertung-get.php" method="GET">
+    <form action="auswertung-post.php" method="POST">
         <p>Vorname: <input type="text" name="vorname"></p>
         <p>Nachname: <input type="text" name="nachname"></p>
         <p>Passwort: <input type="password" name="kennwort"></p>

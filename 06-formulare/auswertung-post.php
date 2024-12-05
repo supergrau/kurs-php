@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Auswertung POST</title>
     <link rel="stylesheet" type="text/css" href="../styles/simple.css">
 
 </head>
 
 <body>
     <header>
-        <h1>Auswertung des Formulars</h1>
+        <h1>Auswertung des Formulars (POST)</h1>
     </header>
     <main>
         <p>Werte in _POST:</p>
