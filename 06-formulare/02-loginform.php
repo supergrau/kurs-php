@@ -26,4 +26,5 @@
         <p>Das ist die Fußzeile</p>
     </footer>
 </body>
-</ht
+
+</html>

@@ -23,13 +23,12 @@ function htmlanfang($titel = "PHP-Beispiel", $thema = "PHP-Thema")
 }
 function htmlende()
 {
+    $jetzt = getdate();
     echo "
     </main>
     <footer>
-        <p>(c) 2023 by ich</p>
+        <p>(c)" . $jetzt['year'] . " by ich</p>
     </footer> 
     </body>
     </html>";
 }
-      
-?>

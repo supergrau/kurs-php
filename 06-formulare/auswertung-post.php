@@ -17,6 +17,7 @@
         <p>Werte in _POST:</p>
         <?php
         // var_dump($_POST);
+        echo implode('-- ', $_POST["zutat"]);
         echo "<br>";
         // print_r($_POST);
         if ($_POST['vorname'] != "" && $_POST['nachname'] != "") {
