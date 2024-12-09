@@ -2,6 +2,7 @@
 require("../inc/htmlhelper.php");
 
 htmlanfang("Kapitel 7 - Übung 1", "Kapitel 7 - Übung 1");
+
 function addiere($a, $b, $c = 0)
 {
     $erg = $a + $b + $c;
