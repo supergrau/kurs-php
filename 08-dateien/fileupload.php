@@ -10,11 +10,15 @@ if (isset($_FILES["Datei"])) {
 
     echo "<table>";
     foreach ($_FILES["Datei"] as $schluessel => $wert) {
-        $wert = is_string($wert) ? htmlspecialchars($wert) : "";
+        $wert = is_string($wert) ? htmlspecialchars($wert) : $wert;
         echo "<tr><td>$schluessel</td><td>$wert</td></tr>";
     }
     echo "</table>";
 
+    echo "<pre>";
+
+    var_dump($_FILES["Datei"]);
+    echo "</pre>";
     if (is_uploaded_file($_FILES['Datei']['tmp_name'])) {
         echo "Datei " . $_FILES['Datei']['name'] . " erfolgreich herauf geladen.\n";
         $tmp_name = $_FILES['Datei']['tmp_name'];
