@@ -19,7 +19,7 @@ if (!isset($_SESSION["name"])) {
     exit("<p>Kein Zugang: <a href='schutz-login.php'>Zur Anmeldung</a>" . htmlende());
 }
 
-
+echo "Test<br>"
 
 ?>
 
