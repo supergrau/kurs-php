@@ -7,6 +7,8 @@ htmlanfang("Webshop", "Unser Shop");
 
 // Herstellung einer Verbindung zur Datenbank
 $con = new mysqli("localhost", "root", "", "web_shop");
+
+// Abteilungen als Hyperlink ausgeben
 include "inc/web_shop.inc.php";
 
 if (isset($_GET["abt"])) {
